@@ -208,7 +208,7 @@
           ! Calculate log10(xi) as per our paper
           ! This section is modified from 1210.1271
           ye = s% ye(k)
-          axionz2ye=z2bar+ye
+          axionz2ye=z2bar/abar+ye
           axioncsi=  1.658d20*axionz2ye*Rho/(T*T*T)
           !.. coefficient = 4*pi*alpha/(4*(1 Kelvin)^3) * N_A * cm^(-3)
           !..    pi*(1/137.0.35)/(1/11604.5)^3 * (6.022*10^23) * (197.326*10^6*10^(-13))^3
